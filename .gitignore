@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EMedicineApiDotNet5/.vs/EMedicineApiDotNet5
+/.vs
+/EMedicineApiDotNet5/EMedicineApiDotNet5/bin/Debug/net5.0
+/EMedicineApiDotNet5/EMedicineApiDotNet5/obj
