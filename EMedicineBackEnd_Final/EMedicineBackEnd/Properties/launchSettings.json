@@ -1,28 +1,28 @@
 ﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:10483",
-      "sslPort": 44393
+      "applicationUrl": "http://localhost:64663",
+      "sslPort": 0
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
+    "EMedicineBackEnd": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5295",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "EMedicineApiDotNet5": {
-      "commandName": "Project",
-      "dotnetRunMessages": "true",
+    "IIS Express": {
+      "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
